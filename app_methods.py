@@ -1,110 +1,154 @@
 import datetime as dt
+from dateutil.relativedelta import relativedelta
 import time
 
 import numpy as np
 import pandas as pd
 import streamlit as st
-from st_aggrid import AgGrid, ColumnsAutoSizeMode, GridOptionsBuilder
+from st_aggrid import AgGrid, GridOptionsBuilder
 
 
 class Production:
     def __init__(self):
-        self.df = pd.read_csv("foilwork_jobs.csv", encoding="latin-1", low_memory=False)
+        self.df = pd.read_csv("TODO.csv", encoding="latin-1", low_memory=False)
+        self.dealerlist = pd.read_csv('DealerList.csv', encoding='latin-1', low_memory=False)
         self.jobs_df = pd.DataFrame()
         self.today = pd.to_datetime(dt.datetime.today().strftime("%Y/%m/%d %H:%M:%S"))
+        self.display_date = pd.to_datetime(dt.datetime.today().strftime("%Y/%m/%d"))
         self.new_status = ""
 
     def format_data(self):
-        self.df["EstimateTime"] = pd.to_datetime(
-            self.df["EstimateTime"], format="%H:%M:%S"
-        ).dt.time
-        self.df["Deadline"] = pd.to_datetime(self.df["Deadline"])
-        self.df["JobCompletedTime"] = pd.to_datetime(self.df["JobCompletedTime"])
         self.jobs_df = self.df.copy()
+        # st.dataframe(self.jobs_df.dtypes)
+        if self.jobs_df['DueDate'].dtype == object:
+            self.jobs_df['DueDate'] = pd.to_datetime(self.jobs_df['DueDate'])
+        self.jobs_df['AddedDate'] = pd.to_datetime(self.jobs_df['AddedDate'])
 
-    def display_data(self, displaytype=1):
+    def display_data(self, displaytype, user_type):
         self.format_data()
         if st.button("Refresh Table"):
             st.rerun()
 
-        if displaytype == 2:
-            jobs_todo = self.jobs_df.loc[
-                self.jobs_df["Progress"] != 100,
-                ["Job ID", "Company", "Description", "Size", "Status", "Deadline"],
-            ].copy()
-            AgGrid(jobs_todo, height=200, fit_columns_on_grid_load=True)
-        else:
-            AgGrid(data=self.jobs_df, height=200, fit_columns_on_grid_load=True)
+        self.user_displays(displaytype, user_type)
+
+    def user_displays(self, display_type, user_type):
+        self.format_data()
+        
+        if user_type == 1:
+            if display_type == 1:
+                # TODO: Check the the date check is not taking into account the time
+                display_data = self.jobs_df.loc[(self.jobs_df['Timeline'] == 'Adhoc') & ((self.jobs_df['status'] == '') | (self.jobs_df['status'].isna()))].copy()
+                self.update_job(display_data, "Data Complete", 1)
+            elif display_type == 2:
+                display_data = self.jobs_df.loc[(self.jobs_df['Timeline'] == 'Daily') & (self.jobs_df['DueDate'] <= (self.display_date)) & ((self.jobs_df['status'] == '') | (self.jobs_df['status'].isna()))].copy()
+                self.update_job(display_data, "", 2)
+            elif display_type == 3:
+                display_data = self.jobs_df.loc[(self.jobs_df['Timeline'] == 'Weekly') & ((self.jobs_df['status'] == '') | (self.jobs_df['status'].isna()))].copy()
+                self.update_job(display_data, "Data Complete", 3)
+            elif display_type == 4:
+                display_data = self.jobs_df.loc[(self.jobs_df['Timeline'] == 'Monthly') & ((self.jobs_df['status'] == '') | (self.jobs_df['status'].isna()))].copy()
+                self.update_job(display_data, "Data Complete", 4)
+
 
     def add_job(self):
         # Add a new job
+        # TODO: Do a check to see if the jobID is available on update. If its already in the list, create a new one.
         self.format_data()
-        st.subheader("Add New Job")
-        job_id = st.text_input("Job ID")
-        company = st.text_input("Company")
-        description = st.text_input("Description")
-        size = st.text_input("Size")
-        estimate_time = st.time_input("Estimated Time")
-        status = st.selectbox("Status", ["Pending", "In Progress", "Completed"])
-        col1, col2 = st.columns(2)
-        with col1:
-            d_deadline = st.date_input("Deadline", value=self.today)
-        with col2:
-            d_time = st.time_input("Deadline Time")
-        deadline = (pd.to_datetime(str(d_deadline) + " " + str(d_time))).strftime(
-            "%Y-%m-%d %H:%M:%S"
-        )
+        st.subheader("Add New Task")
+        id_list = self.jobs_df['id'].tolist()
+        id_list.sort()
+        new_jobid = str(id_list[-1] + 1)
+        job_id = st.text_input("Job ID", value=new_jobid)
+        group = st.selectbox(label="Group", options=self.dealerlist['gp_Name'].unique().tolist())
+        dl_selection = self.dealerlist.query("gp_Name==@group")
+        franchise = st.multiselect(label="Franchise", options=dl_selection['fr_FranchiseName'].unique().tolist())
+        fr_selection = dl_selection.query("gp_Name==@group & fr_FranchiseName==@franchise")
+        dealers = st.multiselect(label="Dealers", options=fr_selection['de_DealerName'].unique().tolist())
+        s_col1, s_col2 = st.columns(2)
+        with s_col1:
+            shot_id = st.text_input("Shot ID")
+        with s_col2:
+            extract_type = st.selectbox(label="Extract Type", options=["Customer", "Email", "SMS", "Matchback", "Report"])
+        data_criteria = st.text_area("Criteria", height=100)
+        f_col1, f_col2 = st.columns(2)
+        with f_col1:
+            frequency = st.selectbox(label="Frequency", options=["Adhoc", "Daily", "Weekly", "Monthly"])
+        with f_col2:
+            due_date = st.date_input("Due Date", value=self.today)
+        status = ""
+        add_notes = st.text_area("Notes", height=100)
 
-        if st.button("Add Job"):
+        if st.button("Add Task"):
             new_job = {
-                "Job ID": [job_id],
-                "Company": [company],
-                "Description": [description],
-                "Size": [size],
-                "EstimateTime": [estimate_time],
-                "Status": [status],
-                "Progress": [
-                    0 if status == "Pending" else 50 if status == "In Progress" else 100
-                ],
-                "JobAddedTime": [self.today],
-                "Deadline": [deadline],
+                "id": [job_id],
+                "GroupName": [group],
+                "Franchise": [franchise],
+                "Dealers": [dealers],
+                "Criteria": [data_criteria],
+                "ExtractType": [extract_type],
+                "ShotID": [shot_id],
+                "AddedDate": [self.today],
+                "DueDate": [due_date],
+                "Timeline": [frequency],
+                "status": [status],
+                "Notes": [add_notes],
             }
             new_job_df = pd.DataFrame(new_job)
             self.jobs_df = pd.concat([self.jobs_df, new_job_df], ignore_index=True)
-            self.jobs_df.to_csv("foilwork_jobs.csv", index=False)
+            self.jobs_df.to_csv("TODO.csv", index=False)
             st.success(f"Job {job_id} added!")
             time.sleep(1)
             st.rerun()
 
-    def update_job(self):
-        self.format_data()
-        # Job status and progress update
-        st.subheader("Update Job Status")
-        selected_job = st.selectbox("Select Job to Update", self.jobs_df["Job ID"])
-        self.new_status = st.selectbox(
-            "Update Status", ["Pending", "In Progress", "Completed"]
-        )
-        if st.button("Update Status"):
-            self.jobs_df.loc[self.jobs_df["Job ID"] == selected_job, "Status"] = (
-                self.new_status
-            )
-            self.jobs_df.loc[
-                self.jobs_df["Job ID"] == selected_job, "JobCompletedTime"
-            ] = {self.today}
-            self.jobs_df.loc[self.jobs_df["Job ID"] == selected_job, "Progress"] = (
-                0
-                if self.new_status == "Pending"
-                else 50 if self.new_status == "In Progress" else 100
-            )
-            self.jobs_df.to_csv("foilwork_jobs.csv", index=False)
-            st.success(f"Job {selected_job} updated!")
-            time.sleep(1)
-            st.rerun()
+    def update_job(self, display_task, status_update, display_type):
+        gb = GridOptionsBuilder.from_dataframe(display_task)
+    
+        gb.configure_selection('multiple', use_checkbox=True)  # Enable single row selection
+        # gb.configure_default_column(editable=True)
+        gridOptions = gb.build()
+
+        # Display the grid
+        grid_response = AgGrid(display_task, gridOptions=gridOptions, enable_enterprise=False)
+
+        # Get selected row data
+        selected_rows = pd.DataFrame(grid_response.get('selected_rows', []))
+
+        # Ensure selected_rows is not empty
+        if not selected_rows.empty:  # Check if there's at least one selected row
+            task_id = selected_rows['id'].tolist()
+
+
+        # Create a form to edit the status
+            with st.form(key='edit_status_form'):
+                submit_button = st.form_submit_button(label='Complete')
+
+                if submit_button:
+                    # Update the task's status
+                    for item in task_id:
+                        if display_type == 1:
+                            self.jobs_df['status'] = np.where(self.jobs_df['id'] == item, status_update, self.jobs_df['status'])
+                            # self.jobs_df.loc[
+                            #     self.jobs_df["id"] == item, "JobCompletedTime"
+                            # ] = {self.today}
+                        elif display_type == 2:
+                            self.jobs_df['DueDate'] = np.where(self.jobs_df['id'] == item, self.display_date + dt.timedelta(days=1),  self.jobs_df['DueDate'])
+                            self.jobs_df['DueDate'] = pd.to_datetime(self.jobs_df['DueDate']).dt.strftime("%Y/%m/%d")
+                        elif display_type == 3:
+                            self.jobs_df['DueDate'] = np.where(self.jobs_df['id'] == item, pd.to_datetime(self.jobs_df['DueDate'], format="%Y/%m/%d") + dt.timedelta(days=7), self.jobs_df['DueDate'])
+                            self.jobs_df['DueDate'] = pd.to_datetime(self.jobs_df['DueDate']).dt.strftime("%Y/%m/%d")
+                        elif display_type == 4:
+                            # TODO: Check the month data error and resolve.
+                            self.jobs_df['DueDate'] = self.jobs_df.apply(lambda row: row['DueDate'] + relativedelta(months=1) if row['id'] == item else row['DueDate'],axis=1)
+                    self.jobs_df.to_csv('TODO.csv', index=False, date_format="%Y/%m/%d")
+                    st.success("Task has been updated")
+                    time.sleep(1)
+                    st.rerun()
+
+                # TODO: Create a view button that displays the job of the selected
 
     def overdue_jobs(self):
         # Check overdue jobs
         st.subheader("Overdue Jobs")
-        today = dt.date.today()
         overdue_jobs = self.jobs_df[
             (self.jobs_df["Deadline"] < self.today)
             & (self.jobs_df["Status"] != "Completed")
