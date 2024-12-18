@@ -1,0 +1,901 @@
+de_DealerID,de_DealerName,de_GroupID,gp_Name,de_FranchiseID,fr_FranchiseName
+189,Action Ford & Mazda Roodepoort,26,Action Group,55,Action Ford and Mazda
+314,Alberante BMW,49,Alberante,86,Alberante BMW
+317,Alberante GM,49,Alberante,88,Alberante GM
+662,Allen Ford Warwick,93,Allen Ford UK Limited,193,Allen Ford UK Limited
+781,Multifranchise Brackenfell,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+782,Multifranchise Cape Town,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+783,Multifranchise Diep River,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+784,Multifranchise Somerset West,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+785,Multifranchise Tableview,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+786,Multifranchise Tokai,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+787,Multifranchise Tygervalley,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+810,Kia Brackenfell,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+811,TATA Brackenfell,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+812,Renault Brackenfell,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+813,Kia Cape Town,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+814,TATA Cape Town,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+815,Renault Cape Town,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+816,Kia Diep River,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+817,TATA Diep River,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+818,Renault Diep River,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+819,Kia Somerset West,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+820,TATA Somerset West,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+821,Renault Somerset West,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+822,Kia Tableview,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+823,TATA Tableview,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+824,Renault Tableview,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+825,Kia Tokai,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+826,TATA Tokai,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+827,Renault Tokai,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+828,Kia Tygervalley,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+829,TATA Tygervalley,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+830,Renault Tygervalley,117,AMH Multifranchise Western Cape,258,AMH Multifranchise Western Cape
+592,Arden Maidstone,88,Arden Maidstone,174,Arden Maidstone
+711,Arnold Chatz Hyde Park,101,Arnold Chatz,210,Arnold Chatz Fiat Alfa Romeo
+261,Audi Centre East Rand,39,Audi East Rand,74,Audi East Rand
+342,Auto Alpina Boksburg MINI,57,Auto Alpina Boksburg,100,Auto Alpina Boksburg
+344,Auto Alpina Boksburg BMW,57,Auto Alpina Boksburg,100,Auto Alpina Boksburg
+348,Auto Alpina Boksburg Motorrad,57,Auto Alpina Boksburg,100,Auto Alpina Boksburg
+299,Auto Alpina Springs,44,Auto Alpina Springs,79,Auto Alpina Springs
+349,BMW Midrand,59,Auto Bavaria Midrand BMW,103,Auto Bavaria
+350,Auto Bavaria Midrand MINI,59,Auto Bavaria Midrand BMW,103,Auto Bavaria
+735,Auto BMW Ermelo,107,Auto BMW Ermelo,227,Auto BMW Ermelo
+326,Auto Glen Motors,55,Auto Glen BMW,91,Auto Glen BMW
+64,Botswana VW,4,Barloworld Botswana,12,Barloworld Botswana
+65,Botswana Volvo,4,Barloworld Botswana,12,Barloworld Botswana
+66,Botswana Ford,4,Barloworld Botswana,12,Barloworld Botswana
+76,Botswana Francistown,4,Barloworld Botswana,12,Barloworld Botswana
+266,Botswana Audi,4,Barloworld Botswana,12,Barloworld Botswana
+474,Mazda Gaborone,4,Barloworld Botswana,12,Barloworld Botswana
+1,NMI Ford Bruma,2,Barloworld Motor Group,1,Barloworld Armstrong
+2,GM Bruma,2,Barloworld Motor Group,6,Barloworld General Motors
+3,BarloCallCentre,2,Barloworld Motor Group,26,Barloworld Call Centre
+4,NMI Ford Alberton,2,Barloworld Motor Group,1,Barloworld Armstrong
+5,Armstrong Johannesburg,2,Barloworld Motor Group,1,Barloworld Armstrong
+6,NMI Ford N1 City,2,Barloworld Motor Group,1,Barloworld Armstrong
+7,NMI Ford Pietermaritzburg,2,Barloworld Motor Group,1,Barloworld Armstrong
+8,NMI Ford Pinetown,2,Barloworld Motor Group,1,Barloworld Armstrong
+9,Armstrong Rosettenville,2,Barloworld Motor Group,1,Barloworld Armstrong
+10,NMI Ford Tygervalley,2,Barloworld Motor Group,1,Barloworld Armstrong
+11,Audi Pietermaritzburg,2,Barloworld Motor Group,2,Barloworld Audi
+12,Barons Tokai,2,Barloworld Motor Group,4,Barloworld Barons
+13,Barons Pietermaritzburg,2,Barloworld Motor Group,4,Barloworld Barons
+14,GM Hatfield,2,Barloworld Motor Group,6,Barloworld General Motors
+15,Isuzu Johannesburg,2,Barloworld Motor Group,6,Barloworld General Motors
+16,Isuzu Zambezi,2,Barloworld Motor Group,6,Barloworld General Motors
+17,Isuzu Trucks Johannesburg,2,Barloworld Motor Group,6,Barloworld General Motors
+19,John William's Motors Bloemfontein Pass,2,Barloworld Motor Group,7,Barloworld John Williams
+20,John William's DaimlerChrysler Used,2,Barloworld Motor Group,7,Barloworld John Williams
+21,GM Centurion,2,Barloworld Motor Group,6,Barloworld General Motors
+23,Toyota Centurion,2,Barloworld Motor Group,9,Barloworld Toyota
+24,Toyota Witbank,2,Barloworld Motor Group,9,Barloworld Toyota
+25,Audi Centre Bruma,2,Barloworld Motor Group,2,Barloworld Audi
+26,Audi Centre Cape Town,2,Barloworld Motor Group,2,Barloworld Audi
+27,Audi Centre N1,2,Barloworld Motor Group,2,Barloworld Audi
+29,Subaru Kenridge,2,Barloworld Motor Group,8,Barloworld Subaru
+30,Subaru Bruma,2,Barloworld Motor Group,8,Barloworld Subaru
+31,Toyota Menlyn,2,Barloworld Motor Group,9,Barloworld Toyota
+32,Toyota Sandton,2,Barloworld Motor Group,9,Barloworld Toyota
+33,Toyota Stellenbosch,2,Barloworld Motor Group,9,Barloworld Toyota
+34,Toyota Tygervalley,2,Barloworld Motor Group,9,Barloworld Toyota
+35,Toyota Kuilsrivier,2,Barloworld Motor Group,9,Barloworld Toyota
+36,Barons Bellville,2,Barloworld Motor Group,4,Barloworld Barons
+37,Barons Bruma,2,Barloworld Motor Group,4,Barloworld Barons
+38,Barons Cape Town,2,Barloworld Motor Group,4,Barloworld Barons
+39,Barons N1 City,2,Barloworld Motor Group,4,Barloworld Barons
+40,Barons Durban,2,Barloworld Motor Group,4,Barloworld Barons
+41,Barons Woodmead,2,Barloworld Motor Group,4,Barloworld Barons
+42,Club Motors Fountains,2,Barloworld Motor Group,3,Barloworld BMW
+43,Club Motors Randburg,2,Barloworld Motor Group,3,Barloworld BMW
+44,John William's Commercial,2,Barloworld Motor Group,7,Barloworld John Williams
+45,John William's Welkom,2,Barloworld Motor Group,7,Barloworld John Williams
+46,John William's Bloemfontein Multi Franchise,2,Barloworld Motor Group,7,Barloworld John Williams
+47,John William's Ladybrand,2,Barloworld Motor Group,7,Barloworld John Williams
+56,Barons Commercial N1 City,2,Barloworld Motor Group,4,Barloworld Barons
+57,Toyota Middelburg,2,Barloworld Motor Group,9,Barloworld Toyota
+67,Coachworks Tokai,2,Barloworld Motor Group,13,Barloworld Coachworks
+68,Coachworks Parow,2,Barloworld Motor Group,13,Barloworld Coachworks
+69,Club Motors Pretoria Panel Shop,2,Barloworld Motor Group,13,Barloworld Coachworks
+70,Club Motors Randburg Speed Shop,2,Barloworld Motor Group,13,Barloworld Coachworks
+71,Coachworks Germiston,2,Barloworld Motor Group,13,Barloworld Coachworks
+80,Coachworks Sandton,2,Barloworld Motor Group,13,Barloworld Coachworks
+89,Coachworks Club Motors Randburg,2,Barloworld Motor Group,13,Barloworld Coachworks
+98,Avis Fleet Trade and Auction Centre Benoni,2,Barloworld Motor Group,17,Trade Centre
+99,Avis Trade and Auction Centre Modderfontein,2,Barloworld Motor Group,17,Trade Centre
+100,Car Mall Cape Town,2,Barloworld Motor Group,19,Car Mall
+101,Car Mall Durban,2,Barloworld Motor Group,19,Car Mall
+102,Car Mall Roodepoort,2,Barloworld Motor Group,19,Car Mall
+103,Trade & Auction Centre Cape Town,2,Barloworld Motor Group,17,Trade Centre
+104,Trade & Auction Centre Johannesburg,2,Barloworld Motor Group,17,Trade Centre
+105,Zeda Car Sales Bellville,2,Barloworld Motor Group,18,Zeda
+106,Zeda Car Sales Bloemfontein,2,Barloworld Motor Group,18,Zeda
+107,Zeda Car Sales Boksburg,2,Barloworld Motor Group,18,Zeda
+108,Zeda Car Sales Centurion,2,Barloworld Motor Group,18,Zeda
+109,Zeda Car Sales Croydon,2,Barloworld Motor Group,18,Zeda
+110,Zeda Car Sales East London,2,Barloworld Motor Group,18,Zeda
+111,Zeda Car Sales Paarden Eiland,2,Barloworld Motor Group,18,Zeda
+112,Zeda Car Sales Parow,2,Barloworld Motor Group,18,Zeda
+113,Zeda Car Sales Pinetown,2,Barloworld Motor Group,18,Zeda
+114,Zeda Car Sales Randburg,2,Barloworld Motor Group,18,Zeda
+115,Zeda Car Sales Schoeman St Pretoria,2,Barloworld Motor Group,18,Zeda
+116,Zeda Car Sales Strand,2,Barloworld Motor Group,18,Zeda
+117,Zeda Car Sales Umhlanga Ridge,2,Barloworld Motor Group,18,Zeda
+118,Zeda Car Sales Wonderboom/Zambezi,2,Barloworld Motor Group,18,Zeda
+119,Zeda Car Sales Wynberg,2,Barloworld Motor Group,18,Zeda
+120,Zeda Gauteng,2,Barloworld Motor Group,18,Zeda
+121,Zeda Kempton Park,2,Barloworld Motor Group,18,Zeda
+122,Zeda Rivonia Luxury Car Division,2,Barloworld Motor Group,18,Zeda
+123,Zeda Port Elizabeth,2,Barloworld Motor Group,18,Zeda
+124,Zeda Western Cape,2,Barloworld Motor Group,18,Zeda
+127,Subaru Durban,2,Barloworld Motor Group,17,Trade Centre
+133,Barons Durban Pre Owned,2,Barloworld Motor Group,18,Zeda
+134,MyWheels Pretoria,2,Barloworld Motor Group,25,MyWheels
+140,Zeda Luxury Car Division Rivonia,2,Barloworld Motor Group,18,Zeda
+141,Hino Middelburg,2,Barloworld Motor Group,9,Barloworld Toyota
+142,Hino Kuilsriver,2,Barloworld Motor Group,9,Barloworld Toyota
+147,Soweto Toyota,2,Barloworld Motor Group,30,Maponya Toyota
+148,Soweto Volkswagen,2,Barloworld Motor Group,31,Maponya VW
+238,Coachworks Isando,2,Barloworld Motor Group,13,Barloworld Coachworks
+267,John William's Motors Passenger Bloemfontein,2,Barloworld Motor Group,7,Barloworld John Williams
+328,Isuzu Zambezi Commercial,2,Barloworld Motor Group,6,Barloworld General Motors
+442,Toyota Kuruman,2,Barloworld Motor Group,9,Barloworld Toyota
+443,Leach Hino Kuruman,2,Barloworld Motor Group,9,Barloworld Toyota
+461,Mazda Bruma,2,Barloworld Motor Group,120,Barloworld Mazda
+479,Mazda Pietermaritzburg,2,Barloworld Motor Group,120,Barloworld Mazda
+522,GM Western Cape,2,Barloworld Motor Group,6,Barloworld General Motors
+597,Off Road Camping,2,Barloworld Motor Group,177,Off Road Camping
+600,Barons Kuruman,2,Barloworld Motor Group,4,Barloworld Barons
+601,Toyota Postmasburg,2,Barloworld Motor Group,9,Barloworld Toyota
+713,Lexus Centurion,2,Barloworld Motor Group,211,Barloworld Lexus
+715,Lexus Stellenbosch,2,Barloworld Motor Group,211,Barloworld Lexus
+729,Isuzu Trucks Zambezi,2,Barloworld Motor Group,225,Barloworld Isuzu
+734,Selby Parts Centre,2,Barloworld Motor Group,1,Barloworld Armstrong
+800,Cape Town Pre Owned,2,Barloworld Motor Group,267,Cape Town Pre Owned
+857,Bosch Car Service Zambezi,2,Barloworld Motor Group,278,Barloworld Bosch
+883,Kuilsrivier Taxi,2,Barloworld Motor Group,9,Barloworld Toyota
+894,Bosch Diesel (Trucks) Service Johannesburg,2,Barloworld Motor Group,278,Barloworld Bosch
+895,Bosch Car Service Johannesburg,2,Barloworld Motor Group,278,Barloworld Bosch
+902,Audi Centre Century City,2,Barloworld Motor Group,2,Barloworld Audi
+910,Audi City,2,Barloworld Motor Group,2,Barloworld Audi
+454,Barons Farnborough BMW,65,Barons Group,113,Barons Farnsborough BMW
+466,Barons Farnborough MINI,65,Barons Group,124,Barons Farnsborough MINI
+467,Barons Hindhead MINI,65,Barons Group,125,Barons Hindhead MINI
+574,Barons Hindhead BMW,65,Barons Group,164,Barons Hindhead BMW
+970,Mercedes-Benz Centurion,140,Bidvest McCarthy,323,Bidvest McCarthy Mercedes-Benz
+778,Bikeshop Boksburg,115,Bikeshop Boksburg,255,Bikeshop Boksburg
+888,Bikeshop Rivonia,115,Bikeshop Boksburg,255,Bikeshop Boksburg
+310,Salvage Nation,47,Blue Spec,84,BlueSpec
+630,Renew it Marlboro Express,47,Blue Spec,191,Renew It Autobody
+631,Renew it Edenvale,47,Blue Spec,191,Renew It Autobody
+632,Renew it Greenstone,47,Blue Spec,191,Renew It Autobody
+633,Renew it Proline,47,Blue Spec,191,Renew It Autobody
+634,Renew It Sandhurst Express,47,Blue Spec,191,Renew It Autobody
+635,Renew it Randburg,47,Blue Spec,191,Renew It Autobody
+636,Renew it Sandton,47,Blue Spec,191,Renew It Autobody
+704,BMW Auto Approved Repair Centre,47,Blue Spec,191,Renew It Autobody
+705,Renew It DCP,47,Blue Spec,191,Renew It Autobody
+706,Renew It Sandhurst Express (Duplicate Dealer),47,Blue Spec,191,Renew It Autobody
+707,Renew It Rivonia,47,Blue Spec,191,Renew It Autobody
+708,Renew It Technostar,47,Blue Spec,191,Renew It Autobody
+856,Renew It Bedfordview,47,Blue Spec,191,Renew It Autobody
+28,BMW Cape Town City,113,BMW & MINI Cape Town City,243,BMW Cape Town City
+79,MINI Cape Town City,113,BMW & MINI Cape Town City,244,MINI Cape Town City
+73,BMW Bedfordview,6,BMW Bedfordview,15,BMW Bedfordview
+91,BMW Constantia,8,BMW Constantia,20,Auric Auto
+886,BMW East Rand (DO NOT USE),130,BMW East Rand,288,BMW East Rand
+696,Caledon Toyota,99,Caledon Toyota,208,Caledon Toyota
+578,Peugeot East Rand,81,Cardinals Motor Corporation,167,Cardinals Peugeot
+625,Citroen East Rand,81,Cardinals Motor Corporation,187,Cardinals Citroen
+626,Indian Motorcycles,81,Cardinals Motor Corporation,188,Cardinals Indian Motorcycles
+627,Victory Motorcycles,81,Cardinals Motor Corporation,189,Cardinals Victory Motorcycles
+628,Cardinals Motor Corporation Boksburg,81,Cardinals Motor Corporation,190,Cardinals Multi
+871,Mercedes-Benz Bedfordview (Cargo Motors),128,Cargo Motors,286,Cargo Motors Mercedes-Benz
+300,Cayenne Midrand,45,Cayenne,80,Cayenne
+151,Ford and Mazda - TEST,19,CCS,34,CCS
+301,GM Johannesburg - TEST,19,CCS,34,CCS
+302,Eagle Canyon Auto - TEST,19,CCS,34,CCS
+303,Mercedes Benz - TEST,19,CCS,34,CCS
+304,Northwest Nissan - TEST,19,CCS,34,CCS
+305,Sandton Auto BMW - TEST,19,CCS,34,CCS
+306,Partridge of Hampshire - TEST,19,CCS,34,CCS
+453,(TEST DEALER) Land Rover Cape Town,19,CCS,34,CCS
+480,Mekor - TEST,19,CCS,34,CCS
+587,Nic Carr Sales Demo,19,CCS,34,CCS
+602,Land Rover New Sales,19,CCS,34,CCS
+603,Jaguar New Sales,19,CCS,34,CCS
+604,Land Rover New Sales (Rural Areas),19,CCS,34,CCS
+605,Jaguar New Sales (Rural Areas),19,CCS,34,CCS
+606,Land Rover Used Sales,19,CCS,34,CCS
+607,Jaguar Used Sales,19,CCS,34,CCS
+609,Test Experience Centre 1,19,CCS,34,CCS
+610,Test Experience Centre 2,19,CCS,34,CCS
+611,Nic Car UK Sales Demo,19,CCS,34,CCS
+612,Volvo Demo,19,CCS,34,CCS
+667,Allen Ford Warwick - Test Dealer,19,CCS,34,CCS
+692,Rola TEST,19,CCS,148,Rola Volvo
+701,Renew IT Test,19,CCS,34,CCS
+765,BMW Demo,19,CCS,34,CCS
+766,Audi Demo,19,CCS,34,CCS
+768,Barons Bellville Test,19,CCS,34,CCS
+920,Eastvaal Motor City Test,19,CCS,34,CCS
+934,Munier Test,19,CCS,34,CCS
+956,MB M2 City Test,19,CCS,34,CCS
+957,DriversCircle - TEST,19,CCS,34,CCS
+468,Chandlers Brighton MINI,70,Chandlers Group,126,Chandlers MINI
+469,Chandlers Hailsham MINI,70,Chandlers Group,126,Chandlers MINI
+470,Chandlers Worthing MINI,70,Chandlers Group,126,Chandlers MINI
+509,Chandlers Worthing BMW,70,Chandlers Group,138,Chandlers BMW
+668,Chandlers Brighton BMW,70,Chandlers Group,138,Chandlers BMW
+92,Clearwater BMW,10,Clearwater BMW,22,Clearwater BMW
+154,CMH Kia Bryanston (Inactive),22,CMH,37,CMH Kia
+168,CMH MG Bryanston,22,CMH,47,CMH MG
+672,CMH Kempster Ford Hatfield,22,CMH,198,CMH Ford
+673,CMH Hatfield Multifranchise,22,CMH,199,CMH Multifranchise
+742,CMH Ford Gezina,22,CMH,198,CMH Ford
+743,CMH Ford Steyns,22,CMH,198,CMH Ford
+897,CMH Kempster Ford Randburg,22,CMH,198,CMH Ford
+932,CMH Select Hatfield,22,CMH,199,CMH Multifranchise
+968,CMH Mazda Menlyn,22,CMH,321,CMH Mazda
+969,CMH Mitsubishi Menlyn,22,CMH,322,CMH Mitsubishi
+971,CMH Mazda Proton Foton,22,CMH,199,CMH Multifranchise
+973,Ford Umgeni/Durban,22,CMH,198,CMH Ford
+974,Ford Umhlanga,22,CMH,198,CMH Ford
+975,Ford South/Bluff,22,CMH,198,CMH Ford
+976,Ford Ballito,22,CMH,198,CMH Ford
+978,CMH Volvo Cars Cape Town,22,CMH,325,CMH Volvo
+264,Continental Cars BMW,42,Continental Cars,77,Continental Cars
+265,Continental Cars MINI,42,Continental Cars,77,Continental Cars
+769,Daly Mazda Potchefstroom,114,Daly Group,250,Daly Mazda
+770,Daly Mazda Klerksdorp,114,Daly Group,250,Daly Mazda
+771,Daly Ford Potchefstroom,114,Daly Group,251,Daly Ford
+772,Daly Ford Klerksdorp,114,Daly Group,251,Daly Ford
+773,Daly BMW Motorrad Klerksdorp,114,Daly Group,252,Daly BMW
+774,Daly BMW Klerksdorp,114,Daly Group,252,Daly BMW
+775,Daly Selectacar,114,Daly Group,253,Daly Selectacar
+776,Daly Exclusive,114,Daly Group,254,Daly Exclusive
+777,Daly Kustomz,114,Daly Group,252,Daly BMW
+72,Lyndhurst Auto BMW (OLD),21,Daytona Group,14,Lyndhurst Auto BMW
+145,BMW Sandton Approved Repair Centre (OLD),21,Daytona Group,40,BMW Sandton
+153,Audi Centre Northcliff,21,Daytona Group,36,Audi
+156,MINI Sandton (OLD),21,Daytona Group,39,MINI Sandton
+157,BMW Sandton (OLD),21,Daytona Group,40,BMW Sandton
+158,Rolls-Royce Sandton,21,Daytona Group,43,Rolls Royce
+159,McLaren Sandton,21,Daytona Group,44,McLaren
+160,Aston Martin Sandton,21,Daytona Group,41,Aston Martin Johannesburg
+161,Aston Martin Cape Town,21,Daytona Group,42,Aston Martin Cape Town
+483,Daytona Head Office,21,Daytona Group,132,Daytona Head Office
+517,McLaren Cape Town,21,Daytona Group,44,McLaren
+518,Aston Martin Durban,21,Daytona Group,141,Aston Martin Durban
+519,McLaren Durban,21,Daytona Group,44,McLaren
+520,Rolls-Royce Cape Town,21,Daytona Group,43,Rolls Royce
+521,Rolls-Royce Durban,21,Daytona Group,43,Rolls Royce
+545,Mclaren GM,21,Daytona Group,151,Mclaren GM
+596,Melrose Arch BMW (OLD),21,Daytona Group,176,Melrose Arch BMW
+598,Motorrad Sandton (OLD),21,Daytona Group,178,Motorrad Sandton
+599,Melrose Arch MINI (OLD),21,Daytona Group,179,Melrose Arch MINI
+748,Daytona Multifranchise,21,Daytona Group,235,Daytona Multifranchise
+760,Lyndhurst Auto MINI (OLD),21,Daytona Group,247,Lyndhurst Auto MINI
+761,Lyndhurst Auto Motorrad (OLD),21,Daytona Group,248,Lyndhurst Auto Motorrad
+236,Donford Helderberg,34,Donford Group,68,Helderview BMW
+689,Donford BMW Stellenbosch,34,Donford Group,204,Donford BMW
+690,Donford Motorrad Stellenbosch,34,Donford Group,205,Donford Motorrad
+691,Donford Motorrad Cape Town,34,Donford Group,205,Donford Motorrad
+144,Kohler Auto,16,Eastvaal,296,Eastvaal Isuzu
+149,Eastvaal Ford Witbank,16,Eastvaal,32,Eastvaal
+171,Eastvaal Toyota Potchefstroom,16,Eastvaal,32,Eastvaal
+172,Eastvaal Ford Secunda,16,Eastvaal,32,Eastvaal
+173,Eastvaal Motors Middelburg,16,Eastvaal,32,Eastvaal
+174,Eastvaal Motors Standerton,16,Eastvaal,32,Eastvaal
+175,Eastvaal Motor City,16,Eastvaal,32,Eastvaal
+176,Eastvaal Nissan Bethal,16,Eastvaal,32,Eastvaal
+177,Eastvaal Bethal UD Trucks,16,Eastvaal,32,Eastvaal
+178,Eastvaal Middelburg Tractors,16,Eastvaal,32,Eastvaal
+245,Eastvaal HO,16,Eastvaal,32,Eastvaal
+257,Eastvaal Witbank Multifranchise,16,Eastvaal,32,Eastvaal
+754,Eastvaal Quick Lane Witbank,16,Eastvaal,32,Eastvaal
+806,Eastvaal Mazda Secunda,16,Eastvaal,32,Eastvaal
+807,Eastvaal Ford and Mazda Secunda,16,Eastvaal,32,Eastvaal
+868,Eastvaal Honda Middelburg,16,Eastvaal,32,Eastvaal
+869,Eastvaal Ford Middelburg,16,Eastvaal,32,Eastvaal
+132,Eastview BMW Mbombela,12,Eastview BMW,24,Eastview BMW
+732,Eastview Emalahleni,12,Eastview BMW,24,Eastview BMW
+546,Elms BMW Cambridge,78,Elms Group,152,Elms BMW
+575,Elms Bedford BMW,78,Elms Group,152,Elms BMW
+576,Elms Stansted BMW,78,Elms Group,152,Elms BMW
+680,Elms Bedford MINI,78,Elms Group,201,Elms MINI
+681,Elms Cambridge MINI,78,Elms Group,201,Elms MINI
+682,Elms Stansted MINI,78,Elms Group,201,Elms MINI
+246,Fedauto Newcastle,35,Fedauto,69,Ford and Mazda
+566,Fedauto Ford Kokstad,35,Fedauto,159,Fedauto Ford
+569,Fedauto Mitsubishi Kokstad,35,Fedauto,160,Fedauto Mitsubishi
+570,Fedauto GWM Howick,35,Fedauto,161,Fedauto GWM
+572,Fedauto Pre Owned Mthatha,35,Fedauto,162,Fedauto Pre Owned
+621,Fedauto Ford Dundee,35,Fedauto,159,Fedauto Ford
+622,Fedauto Ford Harrismith,35,Fedauto,159,Fedauto Ford
+179,Fury Ford Midrand,25,Fury Motor Group,50,Fury Ford
+180,Fury Ford Sandton,25,Fury Motor Group,50,Fury Ford
+181,Fury Ford Fourways,25,Fury Motor Group,50,Fury Ford
+182,Fury Ford on William Nicol,25,Fury Motor Group,50,Fury Ford
+183,Fury Rivonia GM,25,Fury Motor Group,51,Fury GM
+184,Fury Hyde Park GM,25,Fury Motor Group,51,Fury GM
+185,Fury Sandton GM,25,Fury Motor Group,51,Fury GM
+186,Fury VW Northcliff,25,Fury Motor Group,52,Fury Volkswagen
+187,Fury Toyota,25,Fury Motor Group,53,Fury Toyota
+188,Fury Ford Toti,25,Fury Motor Group,50,Fury Ford
+347,Fury Woodmead GM,25,Fury Motor Group,51,Fury GM
+444,Fury Ford Woodmead,25,Fury Motor Group,50,Fury Ford
+491,Fury Mazda Midrand,25,Fury Motor Group,135,Fury Mazda
+580,Fury Mazda Sandton,25,Fury Motor Group,135,Fury Mazda
+194,Lexus Fourways,29,Halfway Group,60,Halfway Lexus
+195,Halfway Toyota George,29,Halfway Group,59,Halfway Toyota
+196,Halfway Toyota Fourways,29,Halfway Group,59,Halfway Toyota
+197,Halfway Toyota Honeydew,29,Halfway Group,59,Halfway Toyota
+198,Halfway Toyota Howick,29,Halfway Group,59,Halfway Toyota
+199,Halfway Malanda Toyota,29,Halfway Group,59,Halfway Toyota
+200,Halfway Toyota Ottery,29,Halfway Group,59,Halfway Toyota
+201,Halfway Toyota Scottburgh,29,Halfway Group,59,Halfway Toyota
+202,Halfway Toyota Shelly Beach,29,Halfway Group,59,Halfway Toyota
+311,Halfway Toyota Honeydew Trucks,29,Halfway Group,59,Halfway Toyota
+312,Halfway Toyota Shelly Beach Trucks,29,Halfway Group,59,Halfway Toyota
+410,Halfway Ford Goodwood,29,Halfway Group,115,County Ford
+435,Halfway Ford Port Shepstone,29,Halfway Group,115,County Ford
+507,Halfway Ford Waterfall,29,Halfway Group,115,County Ford
+671,Halfway Ford Kuils River,29,Halfway Group,115,County Ford
+752,Hambanathi Vehicle Rental,29,Halfway Group,238,Hambanathi Vehicle Rental
+753,Bushtrackers,29,Halfway Group,239,Bushtrackers
+792,Halfway Toyota Ottery Pre Owned,29,Halfway Group,59,Halfway Toyota
+793,Hyundai South Coast Port Shepstone,29,Halfway Group,261,Halfway Hyundai
+794,Halfway Mazda Port Shepstone,29,Halfway Group,262,Halfway Mazda
+795,Mark White Nissan Toti,29,Halfway Group,263,Mark White Nissan
+796,Parkhill Panelbeaters,29,Halfway Group,264,Parkhill Panelbeaters
+834,Halfway Toyota Ngami,29,Halfway Group,59,Halfway Toyota
+861,Lexus George,29,Halfway Group,60,Halfway Lexus
+882,Bushtrackers Botswana,29,Halfway Group,239,Bushtrackers
+907,Halfway Toyota Chobe,29,Halfway Group,59,Halfway Toyota
+954,Halfway Group,29,Halfway Group,318,Halfway Group
+717,New Vaal Motors Vereeniging,102,Hallmark Group,214,Hallmark Mercedes Benz
+730,New Vaal Motors CJD Vereeniging,102,Hallmark Group,226,Hallmark CJD
+791,New Vaal Motors Vereeniging CV,102,Hallmark Group,214,Hallmark Mercedes Benz
+203,Harley Davidson Clearwater,30,Harley Davidson Clearwater,61,Harley Davidson Clearwater
+237,Harley Davidson Clearwater PAM,30,Harley Davidson Clearwater,61,Harley Davidson Clearwater
+139,Harley-Davidson Cape Town,13,Harley-Davidson,27,Harley-Davidson
+790,Audi Centre Rivonia,119,Hatfield Group,260,Hatfield Audi
+150,Hessengarage Riederwald,18,Hessengarage GmbH,33,Hessengarage Riederwald
+913,Hoopers VW,136,Hoopers,299,Hoopers VW
+204,IC Auto Nissan Kempton Park,31,IC Auto,62,IC Auto Nissan
+205,IC Auto Nissan Roodepoort,31,IC Auto,62,IC Auto Nissan
+206,IC Auto Nissan Benoni,31,IC Auto,62,IC Auto Nissan
+207,Renault Kempton Park,31,IC Auto,63,IC Auto Renault
+208,Renault Roodepoort,31,IC Auto,63,IC Auto Renault
+209,Renault Benoni,31,IC Auto,63,IC Auto Renault
+152,GM Germiston,20,Imperial,35,GM Germiston
+170,Lindsay Saker Mooi Street Johannesburg,20,Imperial,49,Imperial VW
+716,Hyundai Roodepoort,20,Imperial,213,Imperial Hyundai
+779,Motus Ford Paarden Eiland,20,Imperial,256,Imperial Ford
+780,Imperial Mazda Paarden Eiland,20,Imperial,257,Imperial Mazda
+835,Imperial Mazda Airport Park,20,Imperial,257,Imperial Mazda
+837,Imperial Ford Airport Park,20,Imperial,256,Imperial Ford
+838,Imperial Ford Kempton Park,20,Imperial,256,Imperial Ford
+839,Imperial Ford Kroonstad,20,Imperial,256,Imperial Ford
+840,Imperial Ford Diep River,20,Imperial,256,Imperial Ford
+849,Imperial Ford George,20,Imperial,256,Imperial Ford
+850,Imperial Ford Cape Town,20,Imperial,256,Imperial Ford
+851,Imperial Mazda George,20,Imperial,257,Imperial Mazda
+862,Imperial Volvo Bloemfontein,20,Imperial,282,Imperial Volvo
+870,Imperial Mitsubishi Paarden Eiland,20,Imperial,285,Imperial Mitsubishi
+893,Motus Ford Germiston,20,Imperial,256,Imperial Ford
+896,Motus Mazda Germiston,20,Imperial,257,Imperial Mazda
+937,Mercedes-Benz Sandton,20,Imperial,311,Motus Mercedes-Benz
+938,Mercedes-Benz Bryanston,20,Imperial,311,Motus Mercedes-Benz
+939,Mercedes-Benz Westrand,20,Imperial,311,Motus Mercedes-Benz
+940,Motus Mercedes-Benz Group,20,Imperial,311,Motus Mercedes-Benz
+941,Motus MB SSM Dealer,20,Imperial,311,Motus Mercedes-Benz
+942,Motus MB Pre-Owned,20,Imperial,311,Motus Mercedes-Benz
+943,Mercedes-Benz The Glen,20,Imperial,311,Motus Mercedes-Benz
+944,Mercedes-Benz East Rand Mall,20,Imperial,311,Motus Mercedes-Benz
+945,Mercedes-Benz Bedfordview,20,Imperial,311,Motus Mercedes-Benz
+950,Menlyn Multifranchise,20,Imperial,315,Motus Mutifranchise
+958,Mercurius Motors Polokwane,20,Imperial,311,Motus Mercedes-Benz
+959,Mercurius Motors Tzaneen,20,Imperial,311,Motus Mercedes-Benz
+960,Motus Parow,20,Imperial,319,Motus Nissan
+961,Maemo Motors Rustenburg PC,20,Imperial,311,Motus Mercedes-Benz
+963,Mercurius Motors Polokwane Multi,20,Imperial,311,Motus Mercedes-Benz
+964,Mercurius Motors Tzaneen Multi,20,Imperial,311,Motus Mercedes-Benz
+965,Maemo Motors Rustenburg Multi,20,Imperial,311,Motus Mercedes-Benz
+967,Motus Bedfordview,20,Imperial,311,Motus Mercedes-Benz
+492,Cooper Banstead,75,Inchcape,136,Inchcape BMW
+493,Cooper Durham,75,Inchcape,136,Inchcape BMW
+494,Cooper Chelmsford,75,Inchcape,136,Inchcape BMW
+495,Cooper Cobham,75,Inchcape,136,Inchcape BMW
+496,Cooper Colchester,75,Inchcape,136,Inchcape BMW
+497,Cooper Croydon,75,Inchcape,136,Inchcape BMW
+498,Cooper Ipswich,75,Inchcape,136,Inchcape BMW
+499,Cooper Malton,75,Inchcape,136,Inchcape BMW
+500,Cooper Norwich,75,Inchcape,136,Inchcape BMW
+501,Cooper Reading,75,Inchcape,136,Inchcape BMW
+502,Cooper Sunderland,75,Inchcape,136,Inchcape BMW
+503,Cooper Teesside,75,Inchcape,136,Inchcape BMW
+504,Cooper Thames Ditton,75,Inchcape,136,Inchcape BMW
+505,Cooper Tunbridge Wells,75,Inchcape,136,Inchcape BMW
+506,Cooper York,75,Inchcape,136,Inchcape BMW
+217,Inspectacar Highveld,33,Inspectacar,67,Inspectacar
+218,Inspectacar Gezina,33,Inspectacar,67,Inspectacar
+219,Inspectacar Kokstad,33,Inspectacar,67,Inspectacar
+220,Inspectacar Zambezi,33,Inspectacar,67,Inspectacar
+221,Inspectacar Steering Auto,33,Inspectacar,67,Inspectacar
+222,Inspectacar Silver Lakes,33,Inspectacar,67,Inspectacar
+223,Inspectacar Nigel,33,Inspectacar,67,Inspectacar
+224,Inspectacar Springs (Motor Mecca),33,Inspectacar,67,Inspectacar
+225,Inspectacar Morgan Motors,33,Inspectacar,67,Inspectacar
+226,Inspectacar Smith Street,33,Inspectacar,67,Inspectacar
+227,Inspectacar Prince Alfred Street,33,Inspectacar,67,Inspectacar
+228,Inspectacar Top Marks,33,Inspectacar,67,Inspectacar
+229,Inspectacar Pretoria North,33,Inspectacar,67,Inspectacar
+230,Inspectacar Polokwane,33,Inspectacar,67,Inspectacar
+231,Inspectacar Kempton Park,33,Inspectacar,67,Inspectacar
+232,Inspectacar Derick Roodt,33,Inspectacar,67,Inspectacar
+233,Inspectacar Bakwena,33,Inspectacar,67,Inspectacar
+234,Inspectacar Auto Strada,33,Inspectacar,67,Inspectacar
+235,Inspectacar Pietermaritzburg,33,Inspectacar,67,Inspectacar
+241,Inspectacar Auto Link (Ermelo),33,Inspectacar,67,Inspectacar
+242,Inspectacar Prima Wonderboom,33,Inspectacar,67,Inspectacar
+244,Inspectacar Trichardt,33,Inspectacar,67,Inspectacar
+249,Inspectacar White River,33,Inspectacar,67,Inspectacar
+263,Inspectacar Waterberg,33,Inspectacar,67,Inspectacar
+343,Inspectacar on Jean,33,Inspectacar,67,Inspectacar
+390,Inspectacar Edenvale,33,Inspectacar,67,Inspectacar
+411,Inspectacar Rustenburg,33,Inspectacar,67,Inspectacar
+432,Inspectacar Middelburg,33,Inspectacar,67,Inspectacar
+433,Inspectacar Gezina (Motor Mania),33,Inspectacar,67,Inspectacar
+441,Inspectacar Lifestyle Motors,33,Inspectacar,67,Inspectacar
+450,Inspectacar The Glen,33,Inspectacar,67,Inspectacar
+451,Inspectacar Midrand,33,Inspectacar,67,Inspectacar
+481,Inspectacar Newcastle,33,Inspectacar,67,Inspectacar
+487,InspectaCar Menlyn,33,Inspectacar,67,Inspectacar
+901,InstaVid360,133,InstaVid360,294,InstaVid360
+908,Mazda JHB South,135,IPOP Motor Group,297,IPOP Mazda
+620,J Davy Vauxhall,91,J Davy Vauxhall,185,J Davy Vauxhall
+192,Land Rover Stellenbosch,53,Jaguar Land Rover SA,89,Land Rover
+318,Land Rover Cape Town,53,Jaguar Land Rover SA,89,Land Rover
+319,Land Rover N1 City,53,Jaguar Land Rover SA,89,Land Rover
+320,Land Rover Waterford,53,Jaguar Land Rover SA,89,Land Rover
+327,Jaguar Cape Town,53,Jaguar Land Rover SA,92,Jaguar
+351,Jaguar Bryanston,53,Jaguar Land Rover SA,92,Jaguar
+352,Land Rover Menlyn,53,Jaguar Land Rover SA,89,Land Rover
+353,Land Rover Silver Lakes,53,Jaguar Land Rover SA,89,Land Rover
+354,Jaguar Silver Lakes,53,Jaguar Land Rover SA,92,Jaguar
+355,Land Rover Centurion,53,Jaguar Land Rover SA,89,Land Rover
+356,Jaguar Centurion,53,Jaguar Land Rover SA,92,Jaguar
+357,Land Rover Midrand,53,Jaguar Land Rover SA,89,Land Rover
+358,Jaguar Midrand,53,Jaguar Land Rover SA,92,Jaguar
+359,Land Rover Sandton,53,Jaguar Land Rover SA,89,Land Rover
+360,Land Rover West Rand,53,Jaguar Land Rover SA,89,Land Rover
+361,Land Rover The Glen,53,Jaguar Land Rover SA,89,Land Rover
+362,Jaguar The Glen,53,Jaguar Land Rover SA,92,Jaguar
+363,Land Rover Bedfordview,53,Jaguar Land Rover SA,89,Land Rover
+364,Jaguar Bedfordview,53,Jaguar Land Rover SA,92,Jaguar
+365,Land Rover East Rand,53,Jaguar Land Rover SA,89,Land Rover
+366,Jaguar East Rand,53,Jaguar Land Rover SA,92,Jaguar
+367,Land Rover Vereeniging,53,Jaguar Land Rover SA,89,Land Rover
+368,Land Rover Durban,53,Jaguar Land Rover SA,89,Land Rover
+369,Land Rover Umhlanga,53,Jaguar Land Rover SA,89,Land Rover
+370,Jaguar Umhlanga,53,Jaguar Land Rover SA,92,Jaguar
+371,Land Rover Empangeni,53,Jaguar Land Rover SA,89,Land Rover
+372,Land Rover George,53,Jaguar Land Rover SA,89,Land Rover
+373,Land Rover Limpopo,53,Jaguar Land Rover SA,89,Land Rover
+374,Jaguar Limpopo,53,Jaguar Land Rover SA,92,Jaguar
+375,Land Rover Mokopane,53,Jaguar Land Rover SA,89,Land Rover
+376,Land Rover Rustenburg,53,Jaguar Land Rover SA,89,Land Rover
+377,Land Rover Bloemfontein,53,Jaguar Land Rover SA,89,Land Rover
+378,Jaguar Bloemfontein,53,Jaguar Land Rover SA,92,Jaguar
+391,Land Rover Daly Potchefstroom,53,Jaguar Land Rover SA,89,Land Rover
+392,Jaguar Daly Potchefstroom,53,Jaguar Land Rover SA,92,Jaguar
+393,Land Rover East London,53,Jaguar Land Rover SA,89,Land Rover
+394,Jaguar East London,53,Jaguar Land Rover SA,92,Jaguar
+395,Land Rover Standerton (Ritchie Motors),53,Jaguar Land Rover SA,89,Land Rover
+396,Land Rover Nelspruit,53,Jaguar Land Rover SA,89,Land Rover
+397,Jaguar Nelspruit,53,Jaguar Land Rover SA,92,Jaguar
+398,Jaguar Vereeniging,53,Jaguar Land Rover SA,92,Jaguar
+399,Land Rover Ballito,53,Jaguar Land Rover SA,89,Land Rover
+400,Jaguar Ballito,53,Jaguar Land Rover SA,92,Jaguar
+401,Land Rover Hillcrest,53,Jaguar Land Rover SA,89,Land Rover
+402,Jaguar Hillcrest,53,Jaguar Land Rover SA,92,Jaguar
+403,Land Rover Pietermaritzburg,53,Jaguar Land Rover SA,89,Land Rover
+404,Land Rover Eastern Cape,53,Jaguar Land Rover SA,89,Land Rover
+405,Jaguar Eastern Cape,53,Jaguar Land Rover SA,92,Jaguar
+406,Land Rover N4 Witbank,53,Jaguar Land Rover SA,89,Land Rover
+407,Jaguar N4 Witbank,53,Jaguar Land Rover SA,92,Jaguar
+408,Land Rover North Western,53,Jaguar Land Rover SA,89,Land Rover
+445,Land Rover Windhoek,53,Jaguar Land Rover SA,89,Land Rover
+446,Jaguar Windhoek,53,Jaguar Land Rover SA,92,Jaguar
+452,Jaguar Land Rover Gaborone,53,Jaguar Land Rover SA,89,Land Rover
+471,Land Rover SA,53,Jaguar Land Rover SA,89,Land Rover
+543,JLR SA - Europ Assist,53,Jaguar Land Rover SA,89,Land Rover
+554,Jaguar George,53,Jaguar Land Rover SA,92,Jaguar
+555,Jaguar Stellenbosch,53,Jaguar Land Rover SA,92,Jaguar
+561,Gerotek Experience Centre,53,Jaguar Land Rover SA,89,Land Rover
+562,Kyalami Experience Centre,53,Jaguar Land Rover SA,89,Land Rover
+563,Western Province Experience Centre,53,Jaguar Land Rover SA,89,Land Rover
+564,Inchanga Experience Centre,53,Jaguar Land Rover SA,89,Land Rover
+571,Jaguar SA,53,Jaguar Land Rover SA,92,Jaguar
+589,JLR Test Dealer,53,Jaguar Land Rover SA,89,Land Rover
+608,JLRSA Head Office,53,Jaguar Land Rover SA,89,Land Rover
+624,Jaguar Rustenburg,53,Jaguar Land Rover SA,92,Jaguar
+669,Jaguar N1 City,53,Jaguar Land Rover SA,92,Jaguar
+670,Jaguar West Rand,53,Jaguar Land Rover SA,92,Jaguar
+675,Jaguar Menlyn,53,Jaguar Land Rover SA,92,Jaguar
+676,Jaguar Sandton,53,Jaguar Land Rover SA,92,Jaguar
+677,Jaguar Durban,53,Jaguar Land Rover SA,92,Jaguar
+698,Jaguar Pietermaritzburg,53,Jaguar Land Rover SA,92,Jaguar
+699,Jaguar Constantiaberg,53,Jaguar Land Rover SA,92,Jaguar
+700,Land Rover Constantiaberg,53,Jaguar Land Rover SA,89,Land Rover
+746,Jaguar Waterford,53,Jaguar Land Rover SA,92,Jaguar
+808,Jaguar Gaborone,53,Jaguar Land Rover SA,92,Jaguar
+872,Jaguar Land Rover Brand Experience,53,Jaguar Land Rover SA,92,Jaguar
+899,JLR SA - test dealership,53,Jaguar Land Rover SA,89,Land Rover
+916,Jaguar SA CCP,53,Jaguar Land Rover SA,92,Jaguar
+917,Land Rover SA CCP,53,Jaguar Land Rover SA,89,Land Rover
+922,Jaguar Cape Town City,53,Jaguar Land Rover SA,92,Jaguar
+923,Land Rover Cape Town City,53,Jaguar Land Rover SA,89,Land Rover
+925,Land Rover Bryanston,53,Jaguar Land Rover SA,89,Land Rover
+637,Jaguar Angola,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+638,Land Rover Angola,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+639,Jaguar Ghana,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+640,Land Rover Ghana,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+641,Jaguar Ivory Coast,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+642,Land Rover Ivory Coast,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+643,Jaguar Kenya,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+644,Land Rover Kenya,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+645,Jaguar Mauritius,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+646,Land Rover Mauritius,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+647,Jaguar Mozambique,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+648,Land Rover Mozambique,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+649,Jaguar Nigeria,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+650,Land Rover Nigeria,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+651,Jaguar Senegal,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+652,Land Rover Senegal,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+653,Jaguar Tanzania,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+654,Land Rover Tanzania,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+655,Jaguar Uganda,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+656,Land Rover Uganda,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+657,Jaguar Zambia,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+658,Land Rover Zambia,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+659,Jaguar Zimbabwe,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+660,Land Rover Zimbabwe,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+764,JLR SSA Head Office,94,Jaguar Land Rover Sub Sahara,249,JLR SSA Head Office
+852,Jaguar Coscharis Motors Abuja,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+853,Land Rover Coscharis Motors Abuja,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+854,Jaguar Coscharis Motors Lagos,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+855,Land Rover Coscharis Motors Lagos,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+863,Jaguar SSA,94,Jaguar Land Rover Sub Sahara,194,Jaguar SSA
+864,Land Rover SSA,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+900,JLR SSA - test dealership,94,Jaguar Land Rover Sub Sahara,195,Land Rover SSA
+548,Lancaster Reading Jaguar,79,Jardine Motors,156,Jardine Motors Jaguar
+549,Lancaster Land Rover Reading,79,Jardine Motors,154,Jardine Motors Land Rover
+550,Lancaster Volvo Reading,79,Jardine Motors,155,Jardine Motors Volvo
+553,Lancaster Amersham Jaguar,79,Jardine Motors,156,Jardine Motors Jaguar
+565,Lancaster Land Rover Burnham,79,Jardine Motors,154,Jardine Motors Land Rover
+567,Lancaster Jaguar Burnham,79,Jardine Motors,156,Jardine Motors Jaguar
+382,VW Sheffield,60,JCT600,112,JCT600 VW
+383,VW Bradford,60,JCT600,112,JCT600 VW
+384,VW York,60,JCT600,112,JCT600 VW
+385,VW Newark,60,JCT600,112,JCT600 VW
+386,VW Wakefield,60,JCT600,112,JCT600 VW
+387,VW Rotherham,60,JCT600,112,JCT600 VW
+388,VW Chesterfield,60,JCT600,112,JCT600 VW
+389,VW Hull,60,JCT600,112,JCT600 VW
+419,Lincoln Audi,60,JCT600,111,JCT600 AUDI
+420,Boston Audi,60,JCT600,111,JCT600 AUDI
+421,Grimsby Audi,60,JCT600,111,JCT600 AUDI
+422,Hull Audi,60,JCT600,111,JCT600 AUDI
+423,York Audi,60,JCT600,111,JCT600 AUDI
+424,Doncaster Audi,60,JCT600,111,JCT600 AUDI
+425,Sheffield Audi,60,JCT600,111,JCT600 AUDI
+431,Seat Sheffield,60,JCT600,104,Seat
+434,Seat Menston,60,JCT600,104,Seat
+436,Berry Chiswick BMW,60,JCT600,105,JCT600 BMW&MINI
+437,Berry Chiswick MINI,60,JCT600,105,JCT600 BMW&MINI
+465,Bradford BMW,60,JCT600,105,JCT600 BMW&MINI
+478,Bradford MINI,60,JCT600,130,Bradford MINI
+260,Joburg City Auto,38,Joburg City Auto,73,Joburg City
+789,Jovan Auto (Test Dealer),118,Jovan Auto,259,Jovan Auto Chrysler
+416,Peugeot Pinetown,62,Kempston Motors,106,Peugeot
+417,Peugeot Umhlanga,62,Kempston Motors,106,Peugeot
+346,Kunene Brothers Sandton,58,Kunene Brothers Holdings,101,BMW
+804,Land Rover Demo - NC,123,Land Rover Demo - NC,270,Land Rover Demo - NC
+805,Land Rover Demo - SF,124,Land Rover Demo - SF,271,Land Rover Demo - SF
+889,Ford Centurion,132,Lazarus Motor Company,290,Lazarus Ford
+890,Kia Centurion,132,Lazarus Motor Company,291,Lazarus Kia
+891,Mazda Centurion,132,Lazarus Motor Company,292,Lazarus Mazda
+914,Honda Centurion,132,Lazarus Motor Company,300,Lazarus Honda
+915,Lazarus Motor Company,132,Lazarus Motor Company,301,Lazarus Motor Company
+931,Performance Centre,132,Lazarus Motor Company,308,Lazarus Multifranchise
+949,Lazarus BAIC Centurion,132,Lazarus Motor Company,314,Lazarus BAIC
+258,Legends at Zambesi,37,Legacy Auto Pty LTD,72,Legacy
+259,Zambesi Auto,37,Legacy Auto Pty LTD,72,Legacy
+586,Leo Haese Pretoria BMW,84,Leo Haese,170,Leo Leo Haese BMW
+146,Lexus East Rand,15,Lexus East Rand,29,Lexus East Rand
+427,Lisacars Edenvale,61,Lisabank,110,Lisabanks
+428,Lisacars Fourways,61,Lisabank,110,Lisabanks
+429,Lisacars MrCarBuy,61,Lisabank,110,Lisabanks
+430,Lisacars Wynberg,61,Lisabank,110,Lisabanks
+460,Lisacars Sandton Reprocessed Cars,61,Lisabank,110,Lisabanks
+476,Lisacars Head Office,61,Lisabank,110,Lisabanks
+664,Lisacars Kempton Park,61,Lisabank,110,Lisabanks
+836,Lisacars Route 24,61,Lisabank,110,Lisabanks
+618,Mark White Nissan Fourways,95,Mark White Nissan,197,Mark White Nissan
+315,Mascor Toyota Dalton,51,Mascor,87,Mascor
+251,Mayfair Gearbox Manual,36,Mayfair,70,Mayfair
+252,Mayfair Gearbox Pretoria,36,Mayfair,70,Mayfair
+253,Mayfair Gearbox KZN and Transmission Centre,36,Mayfair,70,Mayfair
+254,Mayfair Gearbox Cape Town,36,Mayfair,70,Mayfair
+255,Mayfair Gearbox Germiston,36,Mayfair,70,Mayfair
+256,Mayfair Gearbox Auto,36,Mayfair,70,Mayfair
+77,Honda Cape Town,7,Mekor Motors,16,Mekor Motors
+78,Honda Tygerberg,7,Mekor Motors,16,Mekor Motors
+131,Honda Claremont,7,Mekor Motors,16,Mekor Motors
+136,Honda Umhlanga,7,Mekor Motors,16,Mekor Motors
+138,Mekor Mazda Claremont,7,Mekor Motors,123,Mekor Mazda
+338,Peugeot Citroen Tygervalley,7,Mekor Motors,98,Peugeot Citroen
+341,Mekor Cape Town,7,Mekor Motors,98,Peugeot Citroen
+379,Honda Amanzimtoti,7,Mekor Motors,16,Mekor Motors
+380,Mekor Chrysler Jeep Dodge,7,Mekor Motors,117,Mekor Chrysler Jeep Dodge
+381,Mekor Fiat Alfa,7,Mekor Motors,118,Mekor Fiat Alfa
+412,Peugeot Citroen Umhlanga,7,Mekor Motors,108,Mekor Peugeot Citroen
+463,Mekor Suzuki Tygervalley,7,Mekor Motors,122,Mekor Suzuki
+464,Mekor Mazda Tygervalley,7,Mekor Motors,123,Mekor Mazda
+526,Honda Canal Walk,7,Mekor Motors,16,Mekor Motors
+547,Mekor Renault Amanzimtoti,7,Mekor Motors,153,Mekor Renault
+693,Mekor Mazda Constantiaberg,7,Mekor Motors,123,Mekor Mazda
+697,Mekor Suzuki Cape Town,7,Mekor Motors,122,Mekor Suzuki
+710,Mekor Suzuki Kenilworth,7,Mekor Motors,122,Mekor Suzuki
+750,Peugeot Citroen Umhlanga (Inactive),7,Mekor Motors,236,Peugeot Citroen
+858,Mekor Suzuki Constantiaberg,7,Mekor Motors,122,Mekor Suzuki
+860,Mekor Ford Claremont,7,Mekor Motors,281,Mekor Ford
+911,Mekor Mazda Kenilworth,7,Mekor Motors,123,Mekor Mazda
+951,BAIC Century City,7,Mekor Motors,316,Mekor BAIC
+93,Menlyn Auto,11,Menlyn Auto,23,Menlyn Auto
+921,Montagu Toyota,137,Montagu Toyota,304,Montagu Toyota
+623,Mortimer Toyota Matatiele,92,Mortimer,186,Mortimer Toyota
+447,Motorline Nissan Crawley,64,Motorline Nissan,109,Motorline Nissan
+448,Motorline Nissan Dartford,64,Motorline Nissan,109,Motorline Nissan
+449,Motorline Nissan Royal Tunbridge Wells,64,Motorline Nissan,109,Motorline Nissan
+568,Motorline Nissan Maidstone,64,Motorline Nissan,109,Motorline Nissan
+629,Motorline Nissan Reading,64,Motorline Nissan,109,Motorline Nissan
+831,Garden City Commercials Pietermaritzburg,125,NMI DSM,275,NMIDSM Commercial
+832,NMI DSM Commercial Vehicles Pinetown,125,NMI DSM,275,NMIDSM Commercial
+833,Mercedes Benz Commercial Vehicles Durban,125,NMI DSM,275,NMIDSM Commercial
+909,FUSO Commercial Vehicles Durban,125,NMI DSM,298,NMI DSM FUSO
+135,Honda Melrose,109,North Motor Group,232,North Motor Group Honda
+137,Honda Sandton,109,North Motor Group,232,North Motor Group Honda
+193,Honda Rivonia,109,North Motor Group,232,North Motor Group Honda
+415,Citroen Rivonia,109,North Motor Group,234,North Motor Group Citroen
+694,Mitsubishi Rivonia,109,North Motor Group,233,North Motor Group Mitsubishi
+758,Mahindra Rivonia,109,North Motor Group,245,North Motor Group Mahindra
+759,Kia Bryanston,109,North Motor Group,246,North Motor Group Kia
+788,Kia Sandton,109,North Motor Group,246,North Motor Group Kia
+307,Northcliff Auto BMW,46,Northcliff Auto,81,Northcliff Auto BMW
+308,Northcliff Auto MINI,46,Northcliff Auto,82,Northcliff Auto MINI
+591,Broad Oak Ashford,86,Oak Group,172,Broad Oak Ashford
+593,Broad Oak Canterbury,86,Oak Group,173,Broad Oak Canterbury
+472,Ocean Plymouth MINI,71,Ocean Group,127,Ocean MINI
+473,Ocean Torbay MINI,71,Ocean Group,127,Ocean MINI
+247,Paarlberg BMW,41,Paarlberg BMW,75,Paarlberg BMW
+529,Partridge BMW Hampshire,77,Partridge Group,145,Partridge BMW
+530,Partridge MINI Hampshire,77,Partridge Group,146,Partridge MINI
+702,Pharoah Auto Investments,100,Pharoah Auto Investments,209,Pharoah Auto Investments
+955,Origins by Pharoah Auto,100,Pharoah Auto Investments,209,Pharoah Auto Investments
+90,Philwest VW,9,Philwest,21,Philwest
+581,Porsche Centre Guildford,83,Porsche Retail Group Limited,169,Porsche UK
+582,Porsche Centre Hatfield,83,Porsche Retail Group Limited,169,Porsche UK
+583,Porsche Centre Mayfair,83,Porsche Retail Group Limited,169,Porsche UK
+584,Porsche Centre Reading,83,Porsche Retail Group Limited,169,Porsche UK
+585,Porsche Centre West London,83,Porsche Retail Group Limited,169,Porsche UK
+725,Prentice Portadown BMW,105,Prentice Group,221,Prentice BMW
+726,Prentice Portadown MINI,105,Prentice Group,222,Prentice MINI
+488,Ridgeway Bournemouth BMW,74,Ridgeway,134,Ridgeway BMW
+489,Ridgeway Hampshire BMW,74,Ridgeway,134,Ridgeway BMW
+490,Ridgeway Salisbury BMW,74,Ridgeway,134,Ridgeway BMW
+534,Ridgeway Hampshire MINI,74,Ridgeway,149,Ridgeway MINI
+535,Ridgeway Salisbury MINI,74,Ridgeway,149,Ridgeway MINI
+536,Ridgeway Bournemouth MINI,74,Ridgeway,149,Ridgeway MINI
+329,Rola Bredasdorp Toyota,56,Rola Group,94,Toyota
+330,Rola Commercial Vehicles,56,Rola Group,78,Mercedes Benz
+331,Rola VW Hermanus,56,Rola Group,93,VW
+332,Rola VW Malmesbury,56,Rola Group,93,VW
+333,Rola VW Vredenburg,56,Rola Group,93,VW
+334,Rola Honda Auto Helderberg,56,Rola Group,96,Honda
+335,Rola Motors Chrysler/Jeep/Dodge,56,Rola Group,95,CJD
+336,Rola Toyota Somerset West,56,Rola Group,94,Toyota
+337,Lexus Helderberg,56,Rola Group,97,Lexus Helderberg
+339,Rola Motors Mitsubishi,56,Rola Group,99,Mitsubishi
+340,Rola Motors Passenger Vehicles,56,Rola Group,78,Mercedes Benz
+426,Rola,56,Rola Group,96,Honda
+475,Rola Motor Group,56,Rola Group,128,Rola Motor Group
+525,Rola Ford Caledon,56,Rola Group,142,Rola GM
+533,Rola Volvo Helderberg,56,Rola Group,148,Rola Volvo
+552,Rola Ford Riversdal,56,Rola Group,157,Rola Ford
+616,Rola Ford Robertson,56,Rola Group,157,Rola Ford
+678,Rolacars Pre-Owned,56,Rola Group,96,Honda
+321,Mercedes-Benz Bryanston (Sandown),54,Sandown Motor Group,90,Sandown MB
+322,Mercedes-Benz Constantia Kloof (Sandown),54,Sandown Motor Group,90,Sandown MB
+323,Mercedes-Benz Northcliff (Sandown),54,Sandown Motor Group,90,Sandown MB
+324,Mercedes-Benz Rosebank (Sandown),54,Sandown Motor Group,90,Sandown MB
+325,Mercedes-Benz Sandton (OLD - Sandown),54,Sandown Motor Group,90,Sandown MB
+674,Sandown Group GP (Sandown),54,Sandown Motor Group,90,Sandown MB
+809,Sandown Pre-Owned (Sandown),54,Sandown Motor Group,274,Sandown Pre-Owned
+865,Mercedes-Benz Sandton (Sandown),54,Sandown Motor Group,90,Sandown MB
+867,Sandown SSM Dealer (Sandown),54,Sandown Motor Group,90,Sandown MB
+935,Sandown Commercial Vehicles Roodepoort,54,Sandown Motor Group,310,Sandown Commercial Vehicles
+936,Sandown Commercial Vehicles Centurion,54,Sandown Motor Group,310,Sandown Commercial Vehicles
+972,TruckStore Centurion,54,Sandown Motor Group,310,Sandown Commercial Vehicles
+873,BMW Sandton,129,Sandton Group,287,Sandton Group
+874,MINI Sandton,129,Sandton Group,287,Sandton Group
+875,Motorrad Sandton,129,Sandton Group,287,Sandton Group
+876,BMW Sandton Approved Repair Centre,129,Sandton Group,287,Sandton Group
+877,Lyndhurst Auto BMW,129,Sandton Group,287,Sandton Group
+878,Lyndhurst Auto MINI,129,Sandton Group,287,Sandton Group
+879,Lyndhurst Auto Motorrad,129,Sandton Group,287,Sandton Group
+880,Melrose Arch BMW,129,Sandton Group,287,Sandton Group
+881,Melrose Arch MINI,129,Sandton Group,287,Sandton Group
+801,Senzo Auto,121,Senzo Auto,268,Senzo Auto
+250,SMG Cape Town,85,SMG Group,171,SMG BMW
+309,Auto Umhlanga,85,SMG Group,171,SMG BMW
+588,SMG BMW Umhlanga,85,SMG Group,171,SMG BMW
+595,SMG Motorbikes Umhlanga,85,SMG Group,175,SMG Motorbikes
+695,Volvo Cars Bedfordview,98,SMH Group,207,SMH Volvo
+714,Subaru Bryanston,98,SMH Group,212,SMH Subaru
+962,Southern Motors Bedfordview Group,98,SMH Group,320,Southern Motors Bedfordview Group
+482,Snows Volvo Winchester,73,Snows Group,131,Snows Volvo
+508,Snows BMW Portsmouth,73,Snows Group,137,Snows BMW
+510,Snows SEAT Isle of Wight,73,Snows Group,139,Snows SEAT
+511,Snows SEAT Poole,73,Snows Group,139,Snows SEAT
+512,Snows SEAT Portsmouth,73,Snows Group,139,Snows SEAT
+513,Snows SEAT Salisbury,73,Snows Group,139,Snows SEAT
+514,Snows SEAT Southampton,73,Snows Group,139,Snows SEAT
+515,Snows Peugeot Romsey,73,Snows Group,140,Snows Peugeot
+516,Snows Volvo Southampton,73,Snows Group,131,Snows Volvo
+531,Snows MINI Portsmouth,73,Snows Group,147,Snows MINI
+841,South Gate Wheels,126,South Gate Wheels,276,South Gate Wheels
+679,Sparshatts Botley Nissan,96,Sparshatts Group,200,Sparshatts Nissan
+736,Specialist Cars Tring BMW,108,Specialist Cars Group,228,Specialist Cars BMW
+737,Specialist Cars Luton BMW,108,Specialist Cars Group,228,Specialist Cars BMW
+738,Specialist Cars Stevenage BMW,108,Specialist Cars Group,228,Specialist Cars BMW
+739,Specialist Cars Tring MINI,108,Specialist Cars Group,229,Specialist Cars MINI
+740,Specialist Cars Luton MINI,108,Specialist Cars Group,229,Specialist Cars MINI
+741,Specialist Cars Stevenage MINI,108,Specialist Cars Group,229,Specialist Cars MINI
+683,Spire Borehamwood BMW,97,Spire Group,202,Spire BMW
+684,Spire Borehamwood MINI,97,Spire Group,203,Spire MINI
+685,Spire Kentish Town BMW,97,Spire Group,202,Spire BMW
+686,Spire Kentish Town MINI,97,Spire Group,203,Spire MINI
+687,Spire Watford BMW,97,Spire Group,202,Spire BMW
+688,Spire Watford MINI,97,Spire Group,203,Spire MINI
+22,Subaru Cape Town,80,Subaru Group,165,Subaru Independent
+190,Rand Stadium Toyota The Glen,27,Supergroup,56,Super Group Toyota
+191,Rand Stadium Lexus The Glen,27,Supergroup,57,Super Group Lexus
+210,Lionel Motors Nissan,27,Supergroup,64,Supergroup Nissan
+211,Tommy Martin Cresta,27,Supergroup,66,Supergroup GM
+212,Tommy Martin Eagle Canyon,27,Supergroup,66,Supergroup GM
+213,Lionel Motors Renault,27,Supergroup,65,Supergroup Renault
+214,Nash Nissan,27,Supergroup,64,Supergroup Nissan
+215,Northwest Nissan,27,Supergroup,64,Supergroup Nissan
+216,Edenvale Nissan,27,Supergroup,64,Supergroup Nissan
+239,Renault The Glen,27,Supergroup,65,Supergroup Renault
+262,Nissan The Glen,27,Supergroup,64,Supergroup Nissan
+313,Tommy Martin Roodepoort,27,Supergroup,66,Supergroup GM
+409,Mercedes-Benz Grand Central Motors,27,Supergroup,114,Supergroup Mercedes Benz
+413,Jeep Fiat Alfa Romeo Midrand,27,Supergroup,107,Supergroup Chrysler Jeep Dodge
+414,Fiat Alfa Romeo Midrand,27,Supergroup,102,Supergroup Fiat
+438,Mercedes Benz Culemborg,27,Supergroup,219,Supergroup Western Cape
+439,Mercedes Benz Century City,27,Supergroup,219,Supergroup Western Cape
+440,Mercedes Benz Constantiaberg,27,Supergroup,219,Supergroup Western Cape
+544,Audi Centre Rustenburg,27,Supergroup,150,Supergroup Audi
+551,Jeep Fiat Alfa Romeo East Rand,27,Supergroup,107,Supergroup Chrysler Jeep Dodge
+556,Auto Baltic East Rand,27,Supergroup,158,Supergroup Volvo
+557,Auto Baltic Rustenburg,27,Supergroup,158,Supergroup Volvo
+558,Auto Baltic Vereeniging,27,Supergroup,158,Supergroup Volvo
+559,Auto Baltic Midrand,27,Supergroup,158,Supergroup Volvo
+560,Auto Baltic Nelspruit,27,Supergroup,158,Supergroup Volvo
+573,Rustenburg Volkswagen,27,Supergroup,163,Supergroup VW
+577,Ford Basil Green,27,Supergroup,166,Supergroup Ford & Mazda
+579,Casseys Auto Benoni,27,Supergroup,181,Supergroup Ford
+613,Auto Baltic Limpopo,27,Supergroup,158,Supergroup Volvo
+614,Mazda Rustenburg,27,Supergroup,182,Supergroup Mazda
+615,Ford Rustenburg,27,Supergroup,181,Supergroup Ford
+617,Leons Multifranchise Rustenburg,27,Supergroup,183,Leons Motors Multi
+619,Tommy Martin Eagle Canyon Commercial,27,Supergroup,66,Supergroup GM
+665,Honda Midrand,27,Supergroup,196,Supergroup Honda
+666,Honda Bedfordview,27,Supergroup,196,Supergroup Honda
+703,Casseys Auto Springs Ford,27,Supergroup,181,Supergroup Ford
+709,CJD Century City,27,Supergroup,219,Supergroup Western Cape
+712,Arnold Chatz Cars,27,Supergroup,302,Supergroup FCA
+718,Mercedes Benz Paarl,27,Supergroup,219,Supergroup Western Cape
+719,Mercedes Benz Worcester,27,Supergroup,293,Mercedes-Benz Commercial Vehicles Group
+720,Mercedes Benz Stellenbosch,27,Supergroup,219,Supergroup Western Cape
+721,Orbit Commercial Vehicles Cape Town,27,Supergroup,293,Mercedes-Benz Commercial Vehicles Group
+722,Mercedes Benz Bellville Commercial Vehicles,27,Supergroup,293,Mercedes-Benz Commercial Vehicles Group
+723,Mercedes-Benz Commercial Vehicles Montague Gardens,27,Supergroup,114,Supergroup Mercedes Benz
+731,Brits Volkswagen,27,Supergroup,163,Supergroup VW
+733,Mercedes Benz Montague Gardens PV,27,Supergroup,219,Supergroup Western Cape
+744,Suzuki Boksburg,27,Supergroup,231,Supergroup Suzuki
+745,GWM Boksburg,27,Supergroup,230,Supergroup GWM
+747,Orbit Motors Service Centre,27,Supergroup,219,Supergroup Western Cape
+749,Mazda Edenvale,27,Supergroup,182,Supergroup Mazda
+751,Supergroup Approved Menlyn,27,Supergroup,237,Supergroup Approved Menlyn
+763,Mercedes Benz Paarl Commercial Vehicles,27,Supergroup,219,Supergroup Western Cape
+797,Haval Boksburg,27,Supergroup,265,Supergroup Haval
+802,Mercedes Benz Panel Shop,27,Supergroup,219,Supergroup Western Cape
+859,Orbit Commercial Vehicles Helderberg,27,Supergroup,293,Mercedes-Benz Commercial Vehicles Group
+884,Supergroup Mercedes-Benz WC,27,Supergroup,219,Supergroup Western Cape
+898,Mazda East Rand,27,Supergroup,182,Supergroup Mazda
+912,Jeep Fiat Alfa Romeo Menlyn,27,Supergroup,102,Supergroup Fiat
+918,Jeep Fiat Alfa Romeo Centurion,27,Supergroup,302,Supergroup FCA
+919,Peugeot Citroen Centurion,27,Supergroup,303,Supergroup Citreon
+924,Chery Boksburg,27,Supergroup,305,Super Group Chery
+926,FAW Roodepoort,27,Supergroup,306,Supergroup UD
+927,Hino Isando,27,Supergroup,307,Supergroup Isando
+928,GWM Benoni,27,Supergroup,230,Supergroup GWM
+929,Haval Benoni,27,Supergroup,265,Supergroup Haval
+930,Suzuki Bruma,27,Supergroup,231,Supergroup Suzuki
+933,Peugeot Citroen Opel Arnold Chatz,27,Supergroup,309,Arnold Chatz Peugeot Citroen Opel
+946,Suzuki Edenvale,27,Supergroup,231,Supergroup Suzuki
+947,Proton Rustenburg,27,Supergroup,312,Supergroup Proton
+948,Auto Presto,27,Supergroup,313,Supergroup Auto Presto
+953,Auto Baltic Limpopo (Old),27,Supergroup,158,Supergroup Volvo
+966,Haval Northcliff,27,Supergroup,265,Supergroup Haval
+803,Land Rover Demo - Sydsen,122,Sydsen,269,Sydsen Land Rover
+477,Sytner Sheffield BMW,72,Sytner Sheffield,129,Sytner Sheffield BMW
+459,Sytner Sunningdale BMW,67,Sytner Sunningdale BMW,119,Sytner Sunningdale BMW
+462,Sytner Sunningdale MINI,69,Sytner Sunningdale MINI,121,Sytner Sunningdale MINI
+60,_Default Dealership,1,Test Group,10,Test
+94,Eleads demo Zeda temp,1,Test Group,10,Test
+95,Eleads demo Car Mall,1,Test Group,10,Test
+96,Eleads demo Trade centre,1,Test Group,10,Test
+97,Eleads demo Retail dealer,1,Test Group,10,Test
+887,Test Halfway Toyota Fourways,131,Test Halfway Group,289,Test Halfway
+164,Western Motors Carletonville,23,The Magic Group,46,Western Motors Carletonville
+165,Toyota Carletonville,23,The Magic Group,38,The Magic Group
+166,Carletonville Toyota,23,The Magic Group,38,The Magic Group
+169,Lenasia Volkswagen,23,The Magic Group,48,Lenasia Volkswagen
+61,Thorp Plumstead,3,Thorp,11,Thorp General Motors
+62,Thorp Fish Hoek,3,Thorp,11,Thorp General Motors
+63,Thorp Paarl,3,Thorp,11,Thorp General Motors
+130,Thorp Claremont,3,Thorp,11,Thorp General Motors
+143,Thorp Paarl Trucks,3,Thorp,11,Thorp General Motors
+532,Thorp Ceres,3,Thorp,11,Thorp General Motors
+727,Trainer Swansea BMW,106,Trainer Group,223,Trainer BMW
+728,Trainer Swansea MINI,106,Trainer Group,224,Trainer MINI
+977,TruckStore,141,TruckStore,324,TruckStore
+842,Tynan Motors Miranda,127,Tynan Motor Group,277,Tynan Motors
+843,Tynan Motors Wollongong,127,Tynan Motor Group,277,Tynan Motors
+844,Tynan Motors Nowra,127,Tynan Motor Group,277,Tynan Motors
+845,Tynan Motors Albion Park,127,Tynan Motor Group,277,Tynan Motors
+846,Tynan Motors Sutherland,127,Tynan Motor Group,277,Tynan Motors
+847,Tynan Motors Kirrawee,127,Tynan Motor Group,277,Tynan Motors
+848,Tynan Group Call Centre,127,Tynan Motor Group,277,Tynan Motors
+724,Union Motors Nelspruit,104,Union Motors,220,Union Motors Nelspruit
+316,Autobahn BMW,52,Unitrans,71,Autobahn BMW
+661,West Cape Volkswagen,52,Unitrans,192,Unitrans VW
+162,Vaal Toyota Vereeniging,24,Vaal Toyota,45,Vaal Toyota
+163,Vaal Toyota Sasolburg,24,Vaal Toyota,45,Vaal Toyota
+527,Northern Motors Harrow,76,Vauxhall,144,Vauxhall
+528,Northern Motors Watford,76,Vauxhall,144,Vauxhall
+456,Vines of Gatwick BMW,66,Vines Group,116,Vines BMW
+457,Vines of Guildford BMW,66,Vines Group,116,Vines BMW
+458,Vines of Redhill BMW,66,Vines Group,116,Vines BMW
+484,Vines of Gatwick MINI,66,Vines Group,133,Vines MINI
+485,Vines of Guildford MINI,66,Vines Group,133,Vines MINI
+486,Vines of Redhill MINI,66,Vines Group,133,Vines MINI
+798,Volvo Demo Site 1,120,Volvo Demo,266,Volvo Demo
+799,Volvo Demo Site 2,120,Volvo Demo,266,Volvo Demo
+756,WBYC Randburg,111,WBYC Motor Retail Gauteng,241,WBYC Randburg
+757,WBYC Boksburg,111,WBYC Motor Retail Gauteng,242,WBYC Boksburg
+866,We Buy Your Car Pretoria,111,WBYC Motor Retail Gauteng,283,WBYC Pretoria
+755,WBYC Cape Town,110,WBYC Motor Retail Western Cape,240,WBYC Cape Town
+952,Weelee,138,Weelee,317,Weelee
+903,Westvaal Menlyn,134,Westvaal,295,Westvaal
+904,Westvaal Mokopane,134,Westvaal,295,Westvaal
+905,Westvaal Polokwane,134,Westvaal,295,Westvaal
+906,Westvaal Somerset West,134,Westvaal,295,Westvaal
+248,Worcester BMW,40,Worcester BMW,76,Worcester BMW
