@@ -10,6 +10,10 @@ from oauth2client.service_account import ServiceAccountCredentials
 from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
 from streamlit_extras.metric_cards import style_metric_cards
 
+# TODO: Check why some data is being refreshed into the table again.
+# TODO: Add a delete button for records.
+# TODO: Add in a still owned option, vin matchback options in the table.
+# TODO: Add in a selection for data or the account manager, for who needs to do the task.
 
 @st.cache_resource
 def get_gspread_client():
@@ -118,7 +122,7 @@ class Production:
 
                 am_radio = st.radio('Naviation Pane', options=['New', 'Ready for Sending'], horizontal=True)
                 if am_radio == "New":
-                    self.update_job(adhoc_am_df, '', 1, user_type, 'adhoc_am_key')
+                    self.update_job(adhoc_am_df, 'Ready for Sending', 1, user_type, 'adhoc_am_key')
                 elif am_radio == "Ready for Sending":
                     self.update_job(adhoc_sending_df, 'Complete', 1, user_type, 'adhoc_send_key')
         elif task_radio == 'Add Task':
@@ -232,7 +236,7 @@ class Production:
                 st.rerun()
 
         # Ensure selected_rows is not empty
-        elif (not selected_rows.empty and user_type == 1) or status_update == 'Complete':  # Check if there's at least one selected row
+        else:  # Check if there's at least one selected row
             task_id = selected_rows['id'].tolist()
 
             if 'view' not in st.session_state:
@@ -274,7 +278,7 @@ class Production:
                                 id_info_con.markdown(job_view['id'].sum())
                             with shotid_info_col:
                                 shotid_info_con = st.container(border=True)
-                                shotid_info_con.markdown(job_view['ShotID'].fillna(0).astype(int).sum())
+                                shotid_info_con.markdown(job_view['ShotID'].sum())
                             with etype_info_col:
                                 etype_info_con = st.container(border=True)
                                 etype_info_con.markdown(job_view['ExtractType'].sum())
