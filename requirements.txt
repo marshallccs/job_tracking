@@ -1,6 +1,6 @@
 streamlit
 pandas
-streamlit-aggrid
+streamlit-aggrid==1.1.2
 streamlit_js_eval
 numpy
 streamlit_extras
