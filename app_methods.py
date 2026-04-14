@@ -75,7 +75,7 @@ class Production:
         adhoc_sending_df = self.jobs_df.loc[(self.jobs_df['Timeline'] == 'Adhoc') & (self.jobs_df['AddedBy'] == full_name) & (self.jobs_df['status'] == 'Ready for Sending'), ['id', 'GroupName', 'Franchise', 'Dealers', 'Criteria', 'ExtractType', 'ShotID', 'ExtractID', 'DueDate', 'Notes', 'AddedDate', 'status']].copy()
         
         # Daily dataset
-        daily_df = self.jobs_df.loc[(self.jobs_df['Timeline'] == 'Daily') & (self.jobs_df['DueDate'] <= (self.display_date)) & ((self.jobs_df['status'] == '') | (self.jobs_df['status'].isna())), ['id', 'GroupName', 'Franchise', 'Dealers', 'Criteria', 'ExtractType', 'ShotID', 'ExtractID', 'DueDate', 'Notes', 'AddedDate']].copy()
+        daily_df = self.jobs_df.loc[(self.jobs_df['Timeline'] == 'Daily') & (pd.to_datetime(self.jobs_df['DueDate']) <= (pd.to_datetime(self.display_date))) & ((self.jobs_df['status'] == '') | (self.jobs_df['status'].isna())), ['id', 'GroupName', 'Franchise', 'Dealers', 'Criteria', 'ExtractType', 'ShotID', 'ExtractID', 'DueDate', 'Notes', 'AddedDate']].copy()
 
         # Weekly dataset
         weekly_df = self.jobs_df.loc[(self.jobs_df['Timeline'] == 'Weekly') & ((self.jobs_df['status'] == '') | (self.jobs_df['status'].isna())), ['id', 'GroupName', 'Franchise', 'Dealers', 'Criteria', 'ExtractType', 'ShotID', 'ExtractID', 'DueDate', 'Notes', 'AddedDate']].copy()
