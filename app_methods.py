@@ -1,6 +1,7 @@
 import datetime as dt
 from dateutil.relativedelta import relativedelta
 import time
+import math
 
 import numpy as np
 import pandas as pd
@@ -64,6 +65,7 @@ class Production:
 
     def user_displays(self, user_type, full_name):
         self.format_data()
+
 
         # Adhoc dataset
         adhoc_df = self.jobs_df.loc[(self.jobs_df['Timeline'] == 'Adhoc') & ((self.jobs_df['status'] == '') | (self.jobs_df['status'].isna())), ['id', 'GroupName', 'Franchise', 'Dealers', 'Criteria', 'ExtractType', 'ShotID', 'ExtractID', 'DueDate', 'Notes', 'AddedDate', 'status']].copy()
@@ -133,10 +135,19 @@ class Production:
     def add_job(self, full_name):
         # Add a new job
         self.format_data()
+
+        def clean_value(val):
+            if val is None:
+                return ""
+            if isinstance(val, float) and math.isnan(val):
+                return ""
+            return str(val)
+
         st.subheader("Add New Task")
+        self.jobs_df['id'] = pd.to_numeric(self.jobs_df['id'])
         id_list = self.jobs_df['id'].tolist()
         id_list.sort()
-        job_id = id_list[-1] + 1
+        job_id = int(id_list[-1]) + 1
         group = st.selectbox(label="Group", options=self.dealerlist['gp_Name'].unique().tolist())
         dl_selection = self.dealerlist.query("gp_Name==@group")
         franchise_selection = st.multiselect(label="Franchise", options=dl_selection['fr_FranchiseName'].unique().tolist())
@@ -183,8 +194,8 @@ class Production:
             }
             new_job_df = pd.DataFrame(new_job)
             self.jobs_df = pd.concat([self.jobs_df, new_job_df], ignore_index=True)
-            self.jobs_df = self.jobs_df.astype(str)
-            sheet.update([self.jobs_df.columns.values.tolist()] + self.jobs_df.values.tolist())
+            clean_data = [[clean_value(cell) for cell in row] for row in self.jobs_df.values.tolist()]
+            sheet.update([self.jobs_df.columns.tolist()] + clean_data)
 
             # self.jobs_df.to_csv("TODO.csv", index=False)
             st.success(f"Job {job_id} added!")
@@ -193,6 +204,14 @@ class Production:
             st.rerun()
 
     def update_job(self, display_task, status_update, display_type, user_type, grid_key):
+
+        def clean_value(val):
+            if val is None:
+                return ""
+            if isinstance(val, float) and math.isnan(val):
+                return ""
+            return str(val)
+
         gb = GridOptionsBuilder.from_dataframe(display_task)
     
         gb.configure_selection('multiple', use_checkbox=True)  # Enable single row selection
@@ -228,8 +247,8 @@ class Production:
                             self.jobs_df.loc[mask, column] = row[column]
                 
                 # self.jobs_df.to_csv('TODO.csv', index=False, date_format="%Y/%m/%d")
-                self.jobs_df = self.jobs_df.astype(str)
-                sheet.update([self.jobs_df.columns.values.tolist()] + self.jobs_df.values.tolist())
+                clean_data = [[clean_value(cell) for cell in row] for row in self.jobs_df.values.tolist()]
+                sheet.update([self.jobs_df.columns.tolist()] + clean_data)
                 st.success("Task has been updated")
                 st.cache_data.clear()
                 time.sleep(1)
@@ -337,14 +356,12 @@ class Production:
                             self.jobs_df['DueDate'] = self.jobs_df.apply(lambda row: row['DueDate'] + relativedelta(months=1) if row['id'] == item else row['DueDate'],axis=1)
 
                     # self.jobs_df.to_csv('TODO.csv', index=False, date_format="%Y/%m/%d")
-                    self.jobs_df = self.jobs_df.astype(str)
-                    sheet.update([self.jobs_df.columns.values.tolist()] + self.jobs_df.values.tolist())
+                    clean_data = [[clean_value(cell) for cell in row] for row in self.jobs_df.values.tolist()]
+                    sheet.update([self.jobs_df.columns.tolist()] + clean_data)
                     st.success("Task has been updated")
                     st.cache_data.clear()
                     time.sleep(1)
                     st.rerun()
-
-
 
 
     def overdue_jobs(self):
